@@ -1,0 +1,60 @@
+print("\t\t****PROBLEM 1****")
+print("\t a) tamsayılarda çarpma\n")
+a= int(input("a="))
+b= int(input("b="))
+c= int(input("c="))
+islem=a*b*c
+print("tamsayıların çarpımı={}\n".format(islem))
+print("\t b) rasyonel sayılarda çarpma")
+d= float(input("d="))
+e= float(input("e="))
+f= float(input("f="))
+islem1=d*e*f
+print("\t\t sayıların çarpımı={}\n".format(islem1))
+
+print("\t\t****PROBLEM 2****")
+print("\t a) Boy(cm) verilirse")
+Boy=int(input("BOY(cm)="))
+Kilo=float(input("KİLO(kg)="))
+islem2=(Kilo/(Boy*Boy)*10000)
+print("BEDEN KİTLE İNDEKSİ={}\n".format(islem2))
+print("\t b) Boy(m) verilirse")
+Boy=float(input("BOY(m)="))
+Kilo=float(input("KİLO(kg)="))
+islem3=(Kilo/(Boy*Boy)*1)
+print("BEDEN KİTLE İNDEKSİ={}\n".format(islem3))
+print("\t\t ****PROBLEM 3****")
+print("GİDİLECEĞİM YOL İÇİN ARACIMA KAÇ TL BENZİN ALMALIYIM? ")
+benzin=float(input("Aracınız 1km de kaç litre benzin harcıyor?=\t"))
+
+yol=float(input("Kaç km yol gitmek istiyorsunuz?="))
+benzintl=float(input("Benzin fiyatı kaç TL?="))
+islem4= (benzin*yol*benzintl)
+print(" GİDİLECEĞİM YOL İÇİN ARACIMA {}".format(islem4),"TL BENZİN ALMALIYIM.\n")
+
+print("\t\t ****PROBLEM 4****")
+print("KULLANICIDAN AD-SOYAD-TELEFON NUMARASI BİGİLERİNİN ALINMASI ")
+ad=input("ADINIZ=")
+soyad=input("SOYADINIZ=")
+tel=int(input("TELEFON NUMARANI="))
+print("\tADI \t\tSOYAD\t\t\t\t TELEFON NUMARASI")
+print("\t{}".format(ad),"\t\t{}".format(soyad),"\t\t\t\t{}".format(tel))
+
+print("\t\t****PROBLEM 5****")
+print("İKİ SAYI İSTE YERLERİNİ DEĞİŞTİR")
+a=float(input("Birinci sayıyı giriniz="))
+b=float(input("İkinci sayıyı giriniz="))
+print("[1.sayı , 2.sayı]")
+liste1=[a,b]
+liste2=[b,a]
+print(" ", liste1)
+print(" ", liste2)
+
+print("\t\t****PROBLEM 6****")
+print("DİK ÜÇGENİN HİPOTENÜSÜNÜ HESPLAMA")
+a=float(input("1.Dikkenar uzunluğunu giriniz?="))
+b=float(input("1.Dikkenar uzunluğunu giriniz?="))
+hip=((a**2)+(b**2))**0.5
+print("\t HİPOTENÜS= {}\t".format(hip))
+
+print("TEBRİKLER")
